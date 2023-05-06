@@ -1,6 +1,6 @@
 baseURL = 'https://jeffkwang.github.io/wall-of-writing/'
 languageCode = 'en-us'
-title = 'Jeff/'s Wall of Writing'
+title = "Jeff's Wall of Writing"
 theme = "paper"
 
 [params]
