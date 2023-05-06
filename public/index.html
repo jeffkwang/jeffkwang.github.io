@@ -25,9 +25,13 @@
 
 
 
+
+
+
+
 <html
   class="not-ready text-sm lg:text-base"
-  style="--bg: #faf6f1"
+  style="--bg: #f8f5d7"
   lang="en-us"
 >
   <head>
@@ -50,9 +54,9 @@
   
   <meta
     name="description"
-    content="All views expressed are my own. All views are meant to be of my personal, subjective experiences."
+    content="A personal blog"
   />
-  <meta name="author" content="Jeff Wang : Writings" />
+  <meta name="author" content="Jeff Wang" />
   
 
   
@@ -71,6 +75,8 @@
 
   
   
+  
+  <link rel="preload" as="image" href="https://avatars.githubusercontent.com/u/55214987?v=4" />
   
   
 
@@ -101,17 +107,17 @@
   
   
   <meta property="og:title" content="Jeff Wang : Writings" />
-<meta property="og:description" content="All views expressed are my own. All views are meant to be of my personal, subjective experiences." />
+<meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="jeffkwang.github.io/" />
 
   
   <meta itemprop="name" content="Jeff Wang : Writings">
-<meta itemprop="description" content="All views expressed are my own. All views are meant to be of my personal, subjective experiences.">
+<meta itemprop="description" content="">
   
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jeff Wang : Writings"/>
-<meta name="twitter:description" content="All views expressed are my own. All views are meant to be of my personal, subjective experiences."/>
+<meta name="twitter:description" content=""/>
 
   
   
@@ -154,7 +160,7 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = `"#faf6f1"`.replace(/"/g, '');
+    const lightBg = `"#f8f5d7"`.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
@@ -214,6 +220,28 @@
 
 
 
+
+<div class="-mt-2 mb-20 flex items-center">
+  
+  <div
+    class="mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow-xl dark:bg-white/80"
+  >
+    <img
+      class="my-0 aspect-square w-16 rounded-full !bg-black/5 hover:animate-spin dark:!bg-black/80"
+      src="https://avatars.githubusercontent.com/u/55214987?v=4"
+      alt="Jeff Wang"
+    />
+  </div>
+  
+  
+  <div>
+    <h1 class="my-2.5 text-3xl font-bold">Jeff Wang</h1>
+    <div class="break-words">
+      A personal blog by Jeff Wang
+    </div>
+  </div>
+  
+</div>
 
 
 

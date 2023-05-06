@@ -25,9 +25,13 @@
 
 
 
+
+
+
+
 <html
   class="not-ready text-sm lg:text-base"
-  style="--bg: #faf6f1"
+  style="--bg: #f8f5d7"
   lang="en-us"
 >
   <head>
@@ -48,7 +52,7 @@
   
   
   <meta name="description" content="This is my first post! Hello world!" />
-  <meta name="author" content="Jeff Wang : Writings" />
+  <meta name="author" content="Jeff Wang" />
   
 
   
@@ -73,6 +77,8 @@
 
   
   
+  
+  <link rel="preload" as="image" href="https://avatars.githubusercontent.com/u/55214987?v=4" />
   
   
 
@@ -154,7 +160,7 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = `"#faf6f1"`.replace(/"/g, '');
+    const lightBg = `"#f8f5d7"`.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
