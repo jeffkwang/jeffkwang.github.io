@@ -1,15 +1,14 @@
 baseURL = 'jeffkwang.github.io'
 languageCode = 'en-us'
 title = 'Jeff Wang : Writings'
-theme = "m10c"
+theme = "paper"
 
 [params]
-    author = "Jeff Wang"
-    description = "All views expressed are my own. All views are meant to be of my personal, subjective experiences."
+    color = "wheat"
+    
+    linkedin = "https://www.linkedin.com/in/jeff-wang-00/"
 
-    [[params.social]]
-        icon = "linkedin"
-        name = "LinkedIn"
-        url = ""
+    avatar = 'https://avatars.githubusercontent.com/u/55214987?v=4'
+    name = 'Jeff Wang'
 
 
