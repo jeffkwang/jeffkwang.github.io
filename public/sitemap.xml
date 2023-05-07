@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/categories/</loc>
+    <loc>https://jeffkwang.github.io/categories/</loc>
     <lastmod>2023-05-06T09:40:31-07:00</lastmod>
   </url><url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/posts/first-post/</loc>
+    <loc>https://jeffkwang.github.io/posts/first-post/</loc>
     <lastmod>2023-05-06T09:40:31-07:00</lastmod>
   </url><url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/</loc>
+    <loc>https://jeffkwang.github.io/</loc>
     <lastmod>2023-05-06T09:40:31-07:00</lastmod>
   </url><url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/posts/</loc>
+    <loc>https://jeffkwang.github.io/posts/</loc>
     <lastmod>2023-05-06T09:40:31-07:00</lastmod>
   </url><url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/categories/uncategories/</loc>
+    <loc>https://jeffkwang.github.io/categories/uncategories/</loc>
     <lastmod>2023-05-06T09:40:31-07:00</lastmod>
   </url><url>
-    <loc>https://jeffkwang.github.io/wall-of-writing/tags/</loc>
+    <loc>https://jeffkwang.github.io/tags/</loc>
   </url>
 </urlset>

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jeff&#39;s Wall of Writing</title>
-    <link>https://jeffkwang.github.io/wall-of-writing/tags/</link>
+    <link>https://jeffkwang.github.io/tags/</link>
     <description>Recent content in Tags on Jeff&#39;s Wall of Writing</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jeffkwang.github.io/wall-of-writing/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://jeffkwang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
