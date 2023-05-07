@@ -1,4 +1,4 @@
-baseURL = 'https://jeffkwang.github.io/wall-of-writing/'
+baseURL = 'https://jeffkwang.github.io/'
 languageCode = 'en-us'
 title = "Jeff's Wall of Writing"
 theme = "paper"
