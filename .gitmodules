@@ -1,9 +1,3 @@
-[submodule "Lowkey-Hugo-Theme"]
-	path = Lowkey-Hugo-Theme
-	url = https://github.com/nixentric/Lowkey-Hugo-Theme.git
-[submodule "themes/m10c"]
-	path = themes/m10c
-	url = https://github.com/vaga/hugo-theme-m10c.git
 [submodule "themes/paper"]
 	path = themes/paper
 	url = https://github.com/nanxiaobei/hugo-paper
