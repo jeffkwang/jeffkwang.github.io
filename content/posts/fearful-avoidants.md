@@ -25,17 +25,16 @@ Since Joe already got a confirmation from Isaiah, he decides to follow through w
 
 After ruminating a while, Joe sends the email. It reads:
 
-Hey Isaiah,
+*Hey Isaiah,*
 
-Could you take a quick look at these graphs for me? 
+*Could you take a quick look at these graphs for me?* 
 
-[insert graph here] 
+*[insert graph here]* 
 
-I tried modeling it with a Poisson distribution, but the model seems a bit off at the tail ends. Do you know how to adjust the Poisson distribution to fit the skewed ends? Or, maybe, there is a better distribution? Just let me know off the top of your head. Appreciate it!
+*I tried modeling it with a Poisson distribution, but the model seems a bit off at the tail ends. Do you know how to adjust the Poisson distribution to fit the skewed ends? Or, maybe, there is a better distribution? Just let me know off the top of your head. Appreciate it!*
 
-Best,
-
-Joe
+*Best,*
+*Joe*
 
 ---
 
