@@ -14,4 +14,4 @@ Have no fear, pickling is quite easy. You take a vegetable or fruit and jar it u
 
 My go-to pickle has been cabbage — something akin to German sauerkraut. However, for those of you familiar with Taiwanese stinky tofu, my pickles are more akin to the pickled cabbage served alongside. I have included a picture of my setup below. Happy Pickling!
 
-![Jeff’s Taiwanese-inspired Pickled Cabbage — June 2023](/assets/pickled_cabbage.jpg)
+![Jeff’s Taiwanese-inspired Pickled Cabbage — June 2023](/pickled_cabbage.jpg)
