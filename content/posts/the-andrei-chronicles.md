@@ -49,7 +49,7 @@ A brief silence ensued. I suspected Jonathan had wanted to say something more bu
 Outside, the castle walls laid bare to me. \
 A light turned on in a room downstairs left of mine. I could see Jonathan looking out the window. He suddenly turned towards my direction, but I knew he could not see me. \
 \
-He was a young, handsome man. His black hair swept neatly across his forehead. Yet, his eyes looked tired, and his face was a tad bit pallid. His expression took on one of perplexed-ness, and his eyes were searching. \
+He is a young, handsome man. His black hair swept neatly across his forehead. Yet, his eyes look tired, and his face is a tad bit pallid. His expression took on one of perplexed-ness, and his eyes were searching. \
 \
 A little after, his room lights went out. Just as I was about to retire from the window, I see my father scaling the castle walls to fly out to Transylvania — I’m assuming to mail the letters.
 Immediately after, I see Jonathan’s head jut out the window, looking at the direction my father departed. Then, he immediately ducks back in. \
