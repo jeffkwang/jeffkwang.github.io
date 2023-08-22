@@ -66,6 +66,6 @@ In a few moments, the gypsy band will come marching through the castle grounds, 
 \
 Just a few moments after, the gypsy band is marching outside. I look towards Jonathan’s window and see his head peeking out. He quickly goes back inside, and a moment later, a rope is flung from his window all the way down to the castle grounds.
 
-One leg and, then, another pop out the window and, soon after, his entire torso and head. I watch Jonathan scale down the castle walls with glee. And, once on the ground, I watch him run after the gypsy band. 
+One leg and, then, another pop out the window and, soon after, his entire torso and head. I watch Jonathan scale down the castle walls with glee. Once on the ground, he runs after the gypsy band. 
 
 See you later, Jonathan. I get up to start to head towards his room.
