@@ -1,0 +1,7 @@
+---
+title: "Pizza Delivery Guy"
+date: 2023-08-24T11:49:03-07:00
+draft: false
+---
+
+You know what the rule is: 15 minutes or less or it’s free. And so when you find yourself zooming down 8th Avenue in your 50cc at break-neck speed, it’s not a matter of life and death. It’s pizza. Or so that’s what you tell yourself. You see a red light ahead, but it’s been roughly 10 minutes since you’ve left the shop. Rent’s due later today, and you remember the landlord said no more late payments. You look left and right and see a gap in the slow-moving traffic. Great, you make it through. But now it’s all backed up up ahead, and you’re at 8th and Horatio St. You need to get to Caprice St, three blocks down. You bob and weave through the traffic, moving through whatever space you see. Fulton St — one more block to go. Then, you find yourself on the sidewalk, scraped and bruised and all, and worst yet, pizza all over. It’s just pizza, until it isn’t. The boss berates you over the lost profits but all you can think about is how you’re going to pay rent. You get home on your 50cc, dents and all. The landlord is waiting in the apartment lobby. And you look at him and shake your head. He motions a thumbs up towards the door. You get to your apartment. And you cry and cry and cry. It’s pizza, until it isn’t.
