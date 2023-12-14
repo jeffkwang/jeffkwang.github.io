@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var navbarHeight = navbar.offsetHeight;
     var navbarWidth = navbar.offsetWidth;
 
-    var randomX = Math.floor(Math.random() * (windowWidth - photo.offsetWidth));
-    var randomY = Math.floor(Math.random() * (windowHeight - photo.offsetHeight));
+    var randomX = Math.floor(Math.random() * (windowWidth - 800));
+    var randomY = Math.floor(Math.random() * (windowHeight - 820));
 
     if (randomX <= navbarWidth) {     randomX += navbarWidth;     }
 
