@@ -1,0 +1,37 @@
+#navbar {
+    list-style-type: none;
+    margin: 10px;
+    width: fit-content;
+    flex-shrink: 0;
+    height: 152px;
+    background-color: #121212;
+
+    li {
+        padding: 10px;
+    }
+
+    a{
+        display: block;  
+        text-decoration: none;  
+        color: #ffffff;
+    }
+  }
+
+
+.container {
+    display: flex;
+    align-items: start;
+
+}
+
+.content {
+    flex-grow: 1;
+    margin: 10px 20% 0 20%;
+    list-style-type: none;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
