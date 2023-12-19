@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
         ['./static/images/11.png', 'Art at SFMOMA - San Francisco, CA'],
         ['./static/images/12.png', 'Mushrooms in Mt. Tam - Marin County'],
         ['./static/images/13.png', 'Creek in the Hills - Palomares Rd'],
+        ['./static/images/14.png', 'Sailing into the sunset - Monterey, CA'],
+        ['./static/images/15.png', 'Earth, Wind, & Water - Carmel-By-The-Sea, CA'],
+        ['./static/images/16.png', 'Vanilla Twilight - Santa Cruz, CA'],
 
     ];
 
