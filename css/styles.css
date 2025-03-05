@@ -26,6 +26,8 @@
 }
 
 .content {
+    display: flex;
+    flex-wrap: wrap;
     flex-grow: 1;
     margin: 10px 20% 0 20%;
     list-style-type: none;
