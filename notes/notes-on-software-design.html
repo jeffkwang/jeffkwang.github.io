@@ -1,0 +1,630 @@
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notes on software design </title>
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <style type="text/css">
+        .lst-kix_ad04pm10hlp4-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_ad04pm10hlp4-6>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ad04pm10hlp4-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ad04pm10hlp4-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ad04pm10hlp4-0 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ad04pm10hlp4-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_ad04pm10hlp4-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_ad04pm10hlp4-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_ad04pm10hlp4-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_ad04pm10hlp4-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ad04pm10hlp4-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-7.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-7 0
+        }
+
+        ul.lst-kix_ad04pm10hlp4-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_ad04pm10hlp4-1>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_ad04pm10hlp4-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ad04pm10hlp4-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_rzljp2tnefn1-4>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-4
+        }
+
+        ol.lst-kix_rzljp2tnefn1-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ad04pm10hlp4-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_ad04pm10hlp4-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_rzljp2tnefn1-0>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-0
+        }
+
+        ol.lst-kix_rzljp2tnefn1-0.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-0 0
+        }
+
+        ul.lst-kix_qhfuomm75zrz-8 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_qhfuomm75zrz-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_qhfuomm75zrz-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-3.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-3 0
+        }
+
+        ol.lst-kix_rzljp2tnefn1-6.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-6 0
+        }
+
+        .lst-kix_rzljp2tnefn1-8>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-8
+        }
+
+        .lst-kix_rzljp2tnefn1-5>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-5
+        }
+
+        ol.lst-kix_rzljp2tnefn1-2.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-2 0
+        }
+
+        .lst-kix_rzljp2tnefn1-2>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-2
+        }
+
+        .lst-kix_rzljp2tnefn1-1>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-1, lower-latin) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-3>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-3, decimal) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-0>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-0, decimal) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-4>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-4, lower-latin) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-2>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-2, lower-roman) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-7>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-7
+        }
+
+        .lst-kix_rzljp2tnefn1-3>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-3
+        }
+
+        ol.lst-kix_rzljp2tnefn1-5.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-5 0
+        }
+
+        ul.lst-kix_qhfuomm75zrz-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_qhfuomm75zrz-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ul.lst-kix_qhfuomm75zrz-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_rzljp2tnefn1-8.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-8 0
+        }
+
+        ul.lst-kix_qhfuomm75zrz-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_qhfuomm75zrz-4>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_qhfuomm75zrz-6>li:before {
+            content: "\0025cf   "
+        }
+
+        ul.lst-kix_qhfuomm75zrz-3 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_qhfuomm75zrz-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_qhfuomm75zrz-3>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_qhfuomm75zrz-7>li:before {
+            content: "\0025cb   "
+        }
+
+        ul.lst-kix_qhfuomm75zrz-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_qhfuomm75zrz-1>li:before {
+            content: "\0025cb   "
+        }
+
+        .lst-kix_qhfuomm75zrz-0>li:before {
+            content: "\0025cf   "
+        }
+
+        .lst-kix_qhfuomm75zrz-2>li:before {
+            content: "\0025a0   "
+        }
+
+        .lst-kix_qhfuomm75zrz-8>li:before {
+            content: "\0025a0   "
+        }
+
+        ol.lst-kix_rzljp2tnefn1-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_rzljp2tnefn1-6>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-6
+        }
+
+        .lst-kix_rzljp2tnefn1-1>li {
+            counter-increment: lst-ctn-kix_rzljp2tnefn1-1
+        }
+
+        li.li-bullet-0:before {
+            margin-left: -18pt;
+            white-space: nowrap;
+            display: inline-block;
+            min-width: 18pt
+        }
+
+        ol.lst-kix_rzljp2tnefn1-4.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-4 0
+        }
+
+        .lst-kix_rzljp2tnefn1-8>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_rzljp2tnefn1-1.start {
+            counter-reset: lst-ctn-kix_rzljp2tnefn1-1 0
+        }
+
+        .lst-kix_rzljp2tnefn1-5>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-5, lower-roman) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-7>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-7, lower-latin) ". "
+        }
+
+        .lst-kix_rzljp2tnefn1-6>li:before {
+            content: "" counter(lst-ctn-kix_rzljp2tnefn1-6, decimal) ". "
+        }
+
+        .lst-kix_ad04pm10hlp4-5>li:before {
+            content: "\0025a0   "
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c11 {
+            margin-left: 36pt;
+            padding-top: 20pt;
+            padding-left: 0pt;
+            padding-bottom: 6pt;
+            line-height: 1.5;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c4 {
+            margin-left: 36pt;
+            padding-top: 20pt;
+            padding-left: 0pt;
+            padding-bottom: 6pt;
+            line-height: 2.0;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c6 {
+            margin-left: 72pt;
+            padding-top: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.5;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c1 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 20pt;
+            font-family: "Arial";
+            font-style: normal
+        }
+
+        .c10 {
+            padding-top: 0pt;
+            text-indent: 36pt;
+            padding-bottom: 0pt;
+            line-height: 2.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c2 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c8 {
+            text-decoration-skip-ink: none;
+            -webkit-text-decoration-skip: none;
+            color: #0000ee;
+            text-decoration: underline
+        }
+
+        .c9 {
+            background-color: #ffffff;
+            max-width: 468pt;
+            padding: 72pt 72pt 72pt 72pt
+        }
+
+        .c7 {
+            color: inherit;
+            text-decoration: inherit
+        }
+
+        .c5 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c3 {
+            height: 11pt
+        }
+
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
+
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+    </style>
+</head>
+
+<div class="container">
+    <nav id="navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../notes.html">Notes</a></li>
+        <li><a href="../design.html">Art & Design</a></li>
+        <li><a href="../art-design/Posts/Mandalas.html">Mandalas</a></li>
+    </nav>
+    <div class="content">
+        <ol class="c5 lst-kix_rzljp2tnefn1-0 start" start="1">
+            <li class="c11 li-bullet-0">
+                <h1 id="h.rpgq9cr282wf" style="display:inline"><span class="c0">Summary</span></h1>
+            </li>
+        </ol>
+        <ul class="c5 lst-kix_ad04pm10hlp4-0 start">
+            <li class="c6 li-bullet-0"><span class="c1">Programming is not only about getting something to work in the
+                    current moment but also for future use cases</span></li>
+            <li class="c6 li-bullet-0"><span class="c1">Strategic programming is about putting aside current resources to
+                    strengthen or future-proof existing code</span></li>
+        </ul>
+        <ol class="c5 lst-kix_rzljp2tnefn1-0" start="2">
+            <li class="c4 li-bullet-0">
+                <h1 id="h.a1w07dsnbqps" style="display:inline"><span class="c0">An exercise: the architecture of this
+                        note</span></h1>
+            </li>
+        </ol>
+        <p class="c2"><span class="c1">I confess that the architecture of this note is not of mine own conception. It is
+                merely a reflection of the talking points that were mapped out in the video (1). I am sure the speaker,
+                John, had thought carefully about the structure of his talk, and the assembly of which is beyond my brief
+                analysis. <br><br>Although, we can observe its structure. The premise of the talk is the development of
+                great programmers. Programming is an art, and great artwork is made by artists who possess a great drive and
+                generative capacity. By analogy, great programs are created by programmers who possess a great drive and
+                generative capacity. </span></p>
+        <p class="c2 c3"><span class="c1"></span></p>
+        <p class="c2"><span class="c1">At this point, it is clear what great programmers and artists produce. However, what
+                makes their programs or artworks great? In other words, what is important in code? Herein, we introduce the
+                balance of two elements (not of the same space): abstraction and concreteness. Abstraction is loosely
+                defined as the ideal form of the program &ndash; what it is expected to do. Concreteness is the
+                implementation of the program. Abstraction is a product of design, and great code is associated with greater
+                levels of it. Therefore, design is an integral part of great code.</span></p>
+        <p class="c2 c3"><span class="c1"></span></p>
+        <p class="c2"><span class="c1">Lastly, the most practical discussion is of the types of programmers and the type of
+                code they generate. The tactical programmer is known to create working but poorly designed code. The
+                strategic programmer, on the other hand, creates well-designed and working code. </span></p>
+        <p class="c2 c3"><span class="c1"></span></p>
+        <p class="c2"><span class="c1">One way you can view the order of these concepts is how readily you can pinpoint the
+                particular subject in reality. When it comes to the tactical vs. strategic programmers, software engineers
+                can think of someone that fits either of these profiles. When it comes to the essentials of good code and
+                programming, the answer is not so clear cut which John opens to discussion in the beginning of the
+                video.</span></p>
+        <ol class="c5 lst-kix_rzljp2tnefn1-0" start="3">
+            <li class="c4 li-bullet-0">
+                <h1 id="h.itb5md738bb9" style="display:inline"><span class="c0">Abstraction vs. concreteness</span></h1>
+            </li>
+        </ol>
+        <p class="c2"><span class="c1">At 3:40, John mentions abstraction to be an integral part of coding. Above, we
+                loosely defined abstraction as the expectations of a program. What a program is supposed to do is only
+                partly correct. What John believes to be the most important aspect of coding is problem decomposition, and
+                in terms of first principles, he makes a good point. </span></p>
+        <p class="c2 c3"><span class="c1"></span></p>
+        <p class="c2"><span class="c1">While abstraction is the expectation of a program, concreteness is the implementation
+                of the program to actualize that. Abstraction and concreteness are not mutually exclusive, but they are
+                unidirectionally complementary from concreteness to abstraction. There is no minimum amount of each either.
+            </span></p>
+        <p class="c2 c3"><span class="c1"></span></p>
+        <p class="c2"><span class="c1">If concreteness automatically generates some amount of abstraction, then there must
+                be varying amounts generated by concreteness. It is a ratio of some sort between the amount of code of a
+                program and the utility it provides. Besides the sheer amount of code of the program, there must be some
+                other factors that leverage the ratio between concreteness and abstraction. John argues that good design is
+                the answer to leveraging this ratio. </span></p>
+        <ol class="c5 lst-kix_rzljp2tnefn1-0" start="4">
+            <li class="c4 li-bullet-0">
+                <h1 id="h.53jr9j9jezhn" style="display:inline"><span class="c0">The tactical programmer</span></h1>
+            </li>
+        </ol>
+        <p class="c2"><span class="c1">A buzzword commonly mentioned in the video is that of the 10x programmer. John
+                describes it as an individual who can produce large amounts of code. It seems to strive for, but John
+                cautions otherwise. While the code may work in the present, it may become detrimental in the future. On the
+                other hand, strategic programmers prioritize design over pure implementation. What comprises design?
+                READMEs, onboarding, and code reviews all comprise design. Strategic programmers more readily see their
+                value and invest current resources. While they seem to accomplish less than tactical programmers, they gain
+                momentum over time while the latter lose momentum. </span></p>
+        <ol class="c5 lst-kix_rzljp2tnefn1-0" start="5">
+            <li class="c4 li-bullet-0">
+                <h1 id="h.9zkpqlcybln4" style="display:inline"><span class="c0">Source(s):</span></h1>
+            </li>
+        </ol>
+        <p class="c10"><span>1 </span><span class="c8"><a class="c7"
+                    href="https://www.google.com/url?q=https://www.youtube.com/watch?v%3DbmSAYlu0NcY&amp;sa=D&amp;source=editors&amp;ust=1742172872722481&amp;usg=AOvVaw0YFSBefA-xW6YtHy8I5vKA">A
+                    Philosophy of Software Design | John Ousterhout | Talks at Google</a></span></p>
+    </div>
+</div>
+
+</html>
